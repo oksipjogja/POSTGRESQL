@@ -1,0 +1,3 @@
+CREATE DATABASE youtubedb;
+CREATE USER youtubeuser WITH ENCRYPTED PASSWORD 'umbara_77';
+GRANT ALL PRIVILEGES ON DATABASE youtubeuser TO youtubeuser;
